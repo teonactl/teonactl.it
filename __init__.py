@@ -1,7 +1,7 @@
 from flask import Flask, render_template,send_from_directory
 import json
 
-with open('/etc/config.json') as config_file:
+with open('config.json') as config_file:
     config = json.load(config_file)
 
 print("ok")
